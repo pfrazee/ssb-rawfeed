@@ -2,6 +2,9 @@
 
 Small SSB feed-explorer tool.
 
+![screen1.png](screen1.png)
+![screen2.png](screen2.png)
+
 To build, run:
 
 ```
