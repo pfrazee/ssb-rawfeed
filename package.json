@@ -4,7 +4,7 @@
   "description": "patchwork app, raw ssb feed viewer",
   "main": "index.js",
   "scripts": {
-    "build": "browserify main.js > bundle.js",
+    "build": "browserify -t browserify-css main.js > bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,5 +16,8 @@
   "license": "MIT",
   "dependencies": {
     "pull-stream": "^2.28.1"
+  },
+  "devDependencies": {
+    "browserify-css": "~0.7.1"
   }
 }

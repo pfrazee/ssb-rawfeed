@@ -1,0 +1,6 @@
+#filter, #render {
+  display: block;
+  width: 100%;
+  margin: 5px;
+  border: 1px solid #ccc;
+}

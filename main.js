@@ -1,11 +1,12 @@
 var pull = require('pull-stream')
+require('./styles.css')
 
 // render base structure
 document.body.innerHTML = [
   'filter (eg value.sequence == 1, content.type == \'post\')<br>',
-  '<input id="filter" style="display:block;width:100%;margin:5px;border: 1px solid #ccc">',
+  '<input id="filter">',
   'render (eg JSON.stringify(msg), content.type)<br>',
-  '<textarea id="render" style="display:block;width:100%;margin:5px;border: 1px solid #ccc"></textarea>',
+  '<textarea id="render"></textarea>',
   '<div id="log"></div>'
 ].join('')
 renderlog()
