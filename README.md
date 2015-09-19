@@ -1,4 +1,4 @@
-# Patchwork Raw Feed
+# SSB Raw Feed
 
 Small SSB feed-explorer tool.
 
@@ -12,4 +12,4 @@ npm install
 npm run build
 ```
 
-That will produce `bundle.js`, which you can then open with Patchwork.
+That will produce `bundle.js`.
